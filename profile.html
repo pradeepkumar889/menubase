@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Jangid - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Pradeep Jangid</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about-content">
+            <img src="{{ url_for('static', filename='images/pjjjj.jpg') }}" alt="Pradeep Jangir">
+            <div class="about-details"><br>
+
+                
+                <h2>About Me</h2>
+                <p>Hi, I'm Pradeep Jangid. I'm passionate about AI and technology. I love creating solutions that can make a difference in people's lives. My expertise includes developing web applications, working with machine learning models, and designing user-friendly interfaces.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
+                    <li>Machine Learning</li>
+                    <li>Flask & Django</li>
+                    <li>MongoDB</li>
+                </ul>
+                <h3>Interests</h3>
+                <div class="interest-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-robot"></i>
+                        <p>AI & Robotics</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-code"></i>
+                        <p>Programming</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-hiking"></i>
+                        <p>Hiking</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-book"></i>
+                        <p>Reading</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-football-ball"></i>
+                    <p>Cricket</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/pradeep-jangir-bb0954255" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/jangid__boy_100/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/your-github-username" target="_blank"><i class="fab fa-github"></i></a>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
